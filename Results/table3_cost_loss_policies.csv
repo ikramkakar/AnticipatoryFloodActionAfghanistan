@@ -1,0 +1,6 @@
+Decision Policy,Triggers,Hits,Misses (Risk),False Alarms,Hit Rate (%),Total Cost ($M),Net Savings ($M)
+1. Never Act (Reactive Relief),0,0,8,0,0.0,80.0,0.0
+2. Always Act in Spring (Blanket),63,8,0,55,100.0,118.5,-38.5
+3. Point LSTM Forecast (>18 mm),2,0,8,2,0.0,83.0,-3.0
+4. Raw Quantile Upper (>25 mm),30,7,1,23,87.5,76.0,4.0
+5. CQR Quantile Upper (>28 mm) [Rec.],30,7,1,23,87.5,76.0,4.0
