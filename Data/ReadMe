@@ -1,1 +1,16 @@
+# Rainfall Data
 
+This project uses the Afghanistan subnational rainfall dataset from the Humanitarian Data Exchange (HDX):
+
+- Source dataset: https://data.humdata.org/dataset/afg-rainfall-subnational
+- File used: afg-rainfall-subnat-full.csv
+
+The dataset contains rainfall records for Afghanistan at subnational administrative levels and is used in this project for rainfall forecasting and flood-risk analysis.
+
+Notes:
+- Data source: Humanitarian Data Exchange (OCHA / HDX)
+- Geographic focus: Afghanistan
+- Temporal coverage: depends on the downloaded file version provided by the source
+- File format: CSV
+
+If the CSV is not already included in the repository, download it from the HDX link above and place it in the project data folder before running the analysis scripts.
